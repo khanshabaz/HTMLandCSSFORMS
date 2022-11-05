@@ -1,0 +1,82 @@
+body {
+  background-image: url("image5.jpg");
+}
+form {
+  color: whitesmoke;
+}
+body > h1 {
+  text-align: center;
+  font-family: "Old English Text MT", sans-serif;
+  font-size: 35px;
+  text-shadow: 0 0 5px rgb(235, 47, 47);
+}
+fieldset {
+  background-color: rgba(0, 0, 0, 0.507);
+  border: 2px solid white;
+  box-shadow: 0 0 10px black;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 12px;
+  margin: 15px;
+}
+fieldset > legend {
+  background-image: url("image2.jpg");
+  background-repeat: no-repeat;
+  font-family: "Old English Text MT", sans-serif;
+  font-size: 20px;
+  border: 2px solid white;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 12px 20px;
+}
+fieldset > legend:hover {
+  box-shadow: 0 0 10px brown;
+  cursor: pointer;
+}
+table {
+  width: 100%;
+}
+table td {
+  padding: 5px;
+  font-size: 18px;
+}
+input[type="text"],
+input[type="date"],
+input[type="month"],
+input[type="number"],
+select {
+  font-size: 18px;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+input:hover {
+  background-color: rgba(190, 234, 234, 0.752);
+  box-shadow: 0 0 8px white;
+}
+textarea {
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  width: 210px;
+}
+textarea:hover {
+  background-color: rgba(190, 234, 234, 0.752);
+  box-shadow: 0 0 8px white;
+}
+.button {
+  background-image: url("image2.jpg");
+  font-family: "Old English Text MT", sans-serif;
+  padding: 12px 25px;
+  font-size: 20px;
+  border: 2px solid white;
+  border-radius: 0 20px 0 20px;
+  box-shadow: 0 0 10px black;
+  color: white;
+  width: 150px;
+}
+.button:hover {
+  box-shadow: 0 0 10px white;
+  cursor: pointer;
+}
